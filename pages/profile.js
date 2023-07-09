@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Layout from "../components/Layout";
 import Card from "../components/Card";
 import Avatar from "../components/Avatar";
@@ -20,7 +21,7 @@ export default function ProfilePage() {
       <Card noPadding={true}>
         <div className="relative overflow-hidden rounded-md">
           <div className="h-36 overflow-hidden flex justify-center items-center">
-            <img src="https://plus.unsplash.com/premium_photo-1686157758105-b100bd44945c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt=""/>
+            <Image src="https://plus.unsplash.com/premium_photo-1686157758105-b100bd44945c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt=""/>
           </div>
           <div className="absolute top-20 left-4">
             <Avatar size={'lg'} />
@@ -111,16 +112,16 @@ export default function ProfilePage() {
           <Card>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="rounded-md overflow-hidden h-48 flex items-center shadow-md">
-                <img src="https://plus.unsplash.com/premium_photo-1668453713900-b56d54ea2f2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=850&q=80" alt=""/>
+                <Image src="https://plus.unsplash.com/premium_photo-1668453713900-b56d54ea2f2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=850&q=80" alt=""/>
               </div>
               <div className="rounded-md overflow-hidden h-48 flex items-center shadow-md">
-                <img src="https://images.unsplash.com/photo-1554072675-66db59dba46f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80" alt=""/>
+                <Image src="https://images.unsplash.com/photo-1554072675-66db59dba46f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80" alt=""/>
               </div>
               <div className="rounded-md overflow-hidden h-48 flex items-center shadow-md">
-                <img src="https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=926&q=80" alt=""/>
+                <Image src="https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=926&q=80" alt=""/>
               </div>
               <div className="rounded-md overflow-hidden h-48 flex items-center shadow-md">
-                <img src="https://images.unsplash.com/photo-1547448415-e9f5b28e570d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt=""/>
+                <Image src="https://images.unsplash.com/photo-1547448415-e9f5b28e570d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt=""/>
               </div>
             </div>
           </Card>
