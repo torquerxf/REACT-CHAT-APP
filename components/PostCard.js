@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Avatar from "./Avatar";
 import Card from "./Card";
 import ClickOutHandler from 'react-clickout-handler'
@@ -83,7 +84,7 @@ export default function PostCard() {
       <div>
         <p className="my-3 text-sm">Berlin, the capital of Germany, is a vibrant city that seamlessly blends history, culture, and modernity. With its iconic landmarks, diverse neighborhoods, and thriving art scene, Berlin offers a unique and captivating experience. From the remnants of the Berlin Wall to world-class museums and lively nightlife, the city exudes an energetic and creative atmosphere. Berlin's rich history and dynamic present make it a must-visit destination for those seeking an immersive and unforgettable urban adventure.</p>
         <div className="rounded-md overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1554072675-66db59dba46f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80" alt=""/>
+          <Image src="https://images.unsplash.com/photo-1554072675-66db59dba46f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80" alt=""/>
         </div>
       </div>
       <div className="mt-5 flex gap-8">
